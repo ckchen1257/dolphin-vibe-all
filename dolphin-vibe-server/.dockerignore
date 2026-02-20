@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+.git/
+.gitignore
+Dockerfile*
+.dockerignore
+*.user
+*.suo
+*.cache
+*.pdb
+*.md
