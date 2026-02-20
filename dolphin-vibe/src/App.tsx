@@ -2,7 +2,6 @@ import './App.css'
 import { useEffect, useState } from 'react'
 import { auth } from "./lib/firebase";
 import {
-  getRedirectResult,
   onAuthStateChanged,
   signOut,
   type User,
@@ -15,10 +14,6 @@ function App() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    getRedirectResult(auth).catch((err) => {
-      setError(err.message);
-    });
-
     const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
       setUser(firebaseUser);
       setLoading(false);

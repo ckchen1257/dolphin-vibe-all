@@ -1,9 +1,13 @@
-import { signInWithRedirect } from "firebase/auth";
+import { signInWithPopup } from "firebase/auth";
 import { auth, googleProvider } from "../lib/firebase";
 
 export default function Login({ error }: { error: string | null }) {
-  const handleLogin = () => {
-    signInWithRedirect(auth, googleProvider);
+  const handleLogin = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+    } catch (err) {
+      console.error("Login error:", err);
+    }
   };
 
   return (
