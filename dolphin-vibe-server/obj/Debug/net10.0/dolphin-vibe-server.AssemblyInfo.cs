@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dolphin-vibe-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf974e1fdd02916ebd7081810300dfe397ea1fc5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e559e32df113a0d899843634c2cab99b10e04da")]
 [assembly: System.Reflection.AssemblyProductAttribute("dolphin-vibe-server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dolphin-vibe-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
