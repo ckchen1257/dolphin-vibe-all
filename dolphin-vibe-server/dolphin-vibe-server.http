@@ -1,0 +1,6 @@
+@dolphin_vibe_server_HostAddress = http://localhost:5086
+
+GET {{dolphin_vibe_server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
